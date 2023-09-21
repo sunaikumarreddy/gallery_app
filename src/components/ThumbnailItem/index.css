@@ -1,0 +1,29 @@
+/* Write your code here. */
+.thumbnail-list-item {
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+.thumbnail-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  border: none;
+}
+.thumbnail-button {
+  background: transparent;
+  border: none;
+  padding: 0px;
+  outline: none;
+  cursor: pointer;
+}
+.thumbnail {
+  width: 60px;
+  height: 60px;
+  opacity: 0.5;
+}
+.active {
+  width: 60px;
+  height: 60px;
+  opacity: 1;
+}
